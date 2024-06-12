@@ -7,9 +7,9 @@ import math
 
 # internal imports
 from utils.file_utils import save_pkl, load_pkl
-from utils.utils_sybtype import *
-from utils.core_utils_mtl_concat_sybtype import train
-from datasets.dataset_mtl_concat_sybtype import Generic_WSI_MTL_Dataset, Generic_MIL_MTL_Dataset, Patient_SYBTYPE_MTL_Dataset
+from utils.utils_subtype import *
+from utils.core_utils_mtl_concat_subtype import train
+from datasets.dataset_mtl_concat_subtype import Generic_WSI_MTL_Dataset, Generic_MIL_MTL_Dataset, Patient_SYBTYPE_MTL_Dataset
 
 # pytorch imports
 import torch
