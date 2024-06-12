@@ -1,9 +1,9 @@
 import numpy as np
 import torch
 import pickle 
-from utils.utils_sybtype import *
+from utils.utils_subtype import *
 import os
-from datasets.dataset_mtl_concat_sybtype import save_splits
+from datasets.dataset_mtl_concat_subtype import save_splits
 from sklearn.metrics import roc_auc_score
 from models.model_sybtype import TOAD_fc_mtl_concat
 from sklearn.metrics import roc_auc_score, roc_curve
