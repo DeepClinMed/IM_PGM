@@ -109,7 +109,7 @@ parser.add_argument('--opt', type=str, choices = ['adam', 'sgd'], default='adam'
 parser.add_argument('--drop_out', action='store_true', default=True, help='enabel dropout (p=0.25)')
 parser.add_argument('--exp_code', type=str, help='experiment code for saving results')
 parser.add_argument('--weighted_sample', action='store_true', default=False, help='enable weighted sampling')
-parser.add_argument('--task', type=str, choices=['dummy_mtl_concat', 'patient2slide_concat_22cell', 'patient2slide_concat_sybtype_925', 'patient2slide_concat_sybtype_1091', 'lncRNA', 'AC004832-4', 'TCGA-Nstage', 'AC008663-1', 'TCGA-Cluster'])
+parser.add_argument('--task', type=str, choices=['TCGA-Cluster'])
 args = parser.parse_args()
 device=torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
